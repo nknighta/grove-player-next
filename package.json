@@ -1,0 +1,19 @@
+{
+  "name": "video-player",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "deploy": "npm run build && touch out/.nojekyll"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "next": "13.x.x",
+    "react": "18.x.x",
+    "react-dom": "18.x.x"
+  }
+}
