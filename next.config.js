@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // GitHub Pagesのリポジトリ名を設定（必要に応じて変更）
-  basePath: '/grove-player-next',
+  basePath: '/grove-player-next/',
   assetPrefix: '/grove-player-next/',
 }
 
